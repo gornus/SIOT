@@ -12,8 +12,8 @@ import gspread, json, time
 with open('api_keys.json') as json_file:
     keys = json.load(json_file)
 api_key = keys["alpha_vantage"]
-interval = 30 #number of minutes between each request
-offset = timedelta(hours = 13)
+interval = 30 #number of minutes between each request, not requested every minute as there is a cap in requests and bulk data request is possible 
+offset = timedelta(hours = 13) # convering the timezone of the data into local Hong Kong time
 
 def finance_data():
     hsi_data = get_HSI_data()

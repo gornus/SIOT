@@ -36,8 +36,9 @@ def get_weather_data():
     rainfall = response.json()["rainfall"]["data"][0]["max"]
     # Humidity
     humidity = response.json()["humidity"]["data"][0]["value"]
-    # Weather icon
+    # Weather icon, list of icons: https://www.hko.gov.hk/textonly/v2/explain/wxicon_e.htm
     icon = response.json()["icon"][0]
+    
     row = [timestamp, temperature, humidity, rainfall, icon]
     return row
 
