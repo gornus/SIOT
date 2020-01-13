@@ -9,7 +9,7 @@ APIs used:
 * Weather data 1 through [Hong Kong Observatory API](https://www.hko.gov.hk/en/abouthko/opendata_intro.htm)
 * Weather data 2 through [Dark Sky API](https://darksky.net/dev/docs)
 
-Respective keys and credentials are not included in this repository.
+**Respective keys and credentials are not included in this repository.**
 
 ## Setup Overview
 
