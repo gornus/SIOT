@@ -36,12 +36,12 @@ All these data are then uploaded to Google Sheets through the [Google Sheets API
 
 ## Coursework 1: Sensing
 
-To see the data collection in action, run data_parsing/main.py
+To see the data collection in action, run [data_parsing/main.py](data_parsing/main.py)
 
 New data will be append to the specified data sheet through user-specified credential keys.
 
 ## Coursework 2: IOT
 
-data_analysis/data_anaysis.ipynb is the Jupyter notebook that contains all the data analysis and results.
+[data_analysis/data_anaysis.ipynb](data_analysis/data_anaysis.ipynb) is the Jupyter notebook that contains all the data analysis and results.
 
-data_analysis/main.py runs the web app that is based on the [Dash library](https://dash.plot.ly/)
+[data_analysis/main.py](data_analysis/main.py) runs the web app that is based on the [Dash library](https://dash.plot.ly/)
