@@ -42,6 +42,6 @@ New data will be append to the specified data sheet through user-specified crede
 
 ## Coursework 2: IOT
 
-[data_analysis/data_anaysis.ipynb](data_analysis/data_anaysis.ipynb) is the Jupyter notebook that contains all the data analysis and results.
+[data_analysis/data_analysis.ipynb](data_analysis/data_analysis.ipynb) is the Jupyter notebook that contains all the data analysis and results.
 
 [data_analysis/main.py](data_analysis/main.py) runs the web app that is based on the [Dash library](https://dash.plot.ly/)
