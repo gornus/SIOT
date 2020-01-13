@@ -9,7 +9,22 @@ APIs used:
 * Weather data 1 through [Hong Kong Observatory API](https://www.hko.gov.hk/en/abouthko/opendata_intro.htm)
 * Weather data 2 through [Dark Sky API](https://darksky.net/dev/docs)
 
+## Requirements
+
 **Respective keys and credentials are not included in this repository.**
+
+Credentials required to run this setup:
+* [Google API credentials](https://developers.google.com/sheets/api/quickstart/python)
+* [Alpha Vantage API key](https://www.alphavantage.co/support/#api-key)
+* [Dark Sky API key](https://darksky.net/dev/register)
+
+Libraries used that will require installation:
+* [dash](https://dash.plot.ly/installation)
+* [oauth2client](https://developers.google.com/sheets/api/quickstart/python)
+* [gspread](https://developers.google.com/sheets/api/quickstart/python)
+* [sklearn](https://scikit-learn.org/stable/install.html)
+* [alpha_vantage](https://medium.com/alpha-vantage/get-started-with-alpha-vantage-data-619a70c7f33a)
+* [pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
 
 ## Setup Overview
 
