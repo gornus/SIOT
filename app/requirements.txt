@@ -1,6 +1,0 @@
-dash
-pandas
-numpy
-oauth2client
-apiclient
-datetime
