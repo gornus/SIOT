@@ -1,5 +1,6 @@
 # data files
-*.json
+api_keys.json
+client_secret.json
 *.csv
 *.xml
 *.iml
