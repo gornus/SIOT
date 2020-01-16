@@ -68,7 +68,7 @@ DS_map = {
 
 def get_gsheet(RANGENAME):
     ### Retrieve sheet data using OAuth credentials and Google Python API.
-    SPREADSHEET_ID = keys["sheet"]
+    SPREADSHEET_ID = "1tV4_d43dSW6wFto6RU1a4jnT_w-eLPLjLVA4uq3E_eo"
     scopes = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scopes)
     service = build('sheets', 'v4', credentials=creds)
